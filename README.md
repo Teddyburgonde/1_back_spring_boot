@@ -28,7 +28,7 @@ SHOW DATABASES; <br>
 
 dans resources/application.properties  <br>
 
-spring.datasource.url=jdbc:mysql://localhost:xxxx/crud_springboot <br>
+spring.datasource.url=jdbc:mysql://localhost:3306/crud_springboot <br>
 spring.datasource.username=root <br>
 spring.datasource.password=yourpassword <br>
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver <br>
