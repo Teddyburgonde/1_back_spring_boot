@@ -11,3 +11,9 @@ Selectionner Maven , java
 
 Telecharger le zip. 
 
+## Installer mysql
+
+https://dev.mysql.com/downloads/mysql/8.0.html
+
+puis pour l'interface visuel on telecharge mysql workbench
+https://dev.mysql.com/downloads/workbench/
