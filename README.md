@@ -26,14 +26,13 @@ SHOW DATABASES; <br>
 
 ## Configurer ma base de donnée
 
-dans resources/application.properties 
+dans resources/application.properties  <br>
 
-spring.datasource.url=jdbc:mysql://localhost:xxxx/crud_springboot
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.datasource.url=jdbc:mysql://localhost:xxxx/crud_springboot <br>
+spring.datasource.username=root <br>
+spring.datasource.password=yourpassword <br>
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver <br>
+spring.jpa.hibernate.ddl-auto=update <br>
+spring.jpa.show-sql=true <br>
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect <br>
 
