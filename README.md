@@ -20,5 +20,5 @@ https://dev.mysql.com/downloads/workbench/
 
 ## Commande mysql
 
-CREATE SCHEMA nameofdatabase;
-SHOW DATABASES;
+CREATE SCHEMA nameofdatabase; <br>
+SHOW DATABASES; <br>
