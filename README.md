@@ -20,5 +20,6 @@ https://dev.mysql.com/downloads/workbench/
 
 ## Commande mysql
 
+mysql -u root -p <br>
 CREATE SCHEMA nameofdatabase; <br>
 SHOW DATABASES; <br>
