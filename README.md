@@ -24,6 +24,11 @@ mysql -u root -p <br>
 CREATE SCHEMA nameofdatabase; <br>
 SHOW DATABASES; <br>
 
+
+##Lancer sping boot <br>
+
+./mvnw spring-boot:run <br>
+
 ## Configurer ma base de donnée
 
 dans resources/application.properties  <br>
