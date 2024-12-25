@@ -98,6 +98,15 @@ public class Person {
 }
 ```
 
+#3 Étapes :
+
+```c
+1. Crée un modèle.
+2. Créer un repository (interface) pour accéder aux données du modèle.
+3. Utiliser le repository dans un service pour ajouter la logique métier.
+``` 
+
+
 #Commandes utiles pour le server 
 lsof -i :8080 
 kill -9 PID
