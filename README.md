@@ -98,7 +98,7 @@ public class Person {
 }
 ```
 
-#3 Étapes :
+# 3 Étapes :
 
 ```c
 1. Crée un modèle.
@@ -107,7 +107,7 @@ public class Person {
 ``` 
 
 
-#Commandes utiles pour le server 
+# Commandes utiles pour le server 
 lsof -i :8080 
 kill -9 PID
 
