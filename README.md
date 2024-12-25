@@ -28,7 +28,7 @@ CREATE SCHEMA nameofdatabase; <br>
 SHOW DATABASES; <br>
 
 
-##Lancer sping boot <br>
+## Lancer sping boot <br>
 
 ./mvnw spring-boot:run <br>
 
