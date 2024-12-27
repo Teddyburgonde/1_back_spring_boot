@@ -112,4 +112,30 @@ public class Person {
 lsof -i :8080 
 kill -9 PID
 
+## Etapes pas a pas : 
+
+1. Dans application.properties on configure la database. <br>
+2. Création d'un classe. Elle represente une table dans la base de données. <br>
+3. Création d'une interface. Cette interface permet d'utiliser JpaRepository (pour les methodes prêtes à l'emploi (findALl etc...).  <br>
+4. Création d'un contrôleur. Il utilise TaskRepository pour interagir avec la data base. <br>
+exemple :
+```c
+  @GetMapping
+    public List<Task> getAllTasks() {
+        return taskRepository.findAll();
+    }
+```
+5. A ce stade la table et vide donc on insére des données dans la table <br>
+```c
+INSERT INTO tasks (title, description, is_completed)
+VALUES 
+('Acheter du lait', 'Aller au supermarché', false),
+('Revoir Angular', 'Étudier les services', true),
+('Faire du sport', 'Courir 30 minutes', false);
+```
+
+
+
+
+
 
