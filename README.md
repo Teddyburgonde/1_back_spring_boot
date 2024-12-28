@@ -23,10 +23,13 @@ https://dev.mysql.com/downloads/workbench/
 
 ## Commande mysql
 
+```c
 mysql -u root -p <br>
 CREATE SCHEMA nameofdatabase; <br>
 SHOW DATABASES; <br>
-
+USE name_table;
+SELECT * FROM name_tables;
+```
 
 ## Lancer sping boot <br>
 
