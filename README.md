@@ -137,19 +137,11 @@ VALUES
 ('Faire du sport', 'Courir 30 minutes', false);
 ```
 
-# Postman
+# Ressources :
 
-POST
-Permet de creer des lignes aléatoirement.
-body : 
-```c
-{
-    "name":"{{$randomLastName}}",
-    "city":"{{$randomCity}}",
-    "phoneNumber":"{{$randomPhoneNumber}}"
-}
-```
-GetbyId
+https://www.youtube.com/watch?v=Ey554n5odLk
+dans le resources/application.properties
+
 
 
 
