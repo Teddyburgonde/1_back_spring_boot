@@ -137,6 +137,19 @@ VALUES
 ('Faire du sport', 'Courir 30 minutes', false);
 ```
 
+# Postman
+
+POST
+Permet de creer des lignes aléatoirement.
+body : 
+```c
+{
+    "name":"{{$randomLastName}}",
+    "city":"{{$randomCity}}",
+    "phoneNumber":"{{$randomPhoneNumber}}"
+}
+```
+GetbyId
 
 
 
