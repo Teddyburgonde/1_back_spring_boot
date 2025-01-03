@@ -1,4 +1,4 @@
 com/islem/crud_springboot/CrudSpringbootApplication.class
-com/islem/crud_springboot/Person.class
-com/islem/crud_springboot/PersonRepository.class
-com/islem/crud_springboot/PersonController.class
+com/islem/crud_springboot/Task.class
+com/islem/crud_springboot/TaskController.class
+com/islem/crud_springboot/TaskRepository.class

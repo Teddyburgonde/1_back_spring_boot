@@ -2,13 +2,13 @@
 	"info": {
 		"_postman_id": "711483b0-5259-46f2-a2a5-aebedf41219b",
 		"name": "Spring Boot CRUD",
-		"description": "CRUD API for Person entity",
+		"description": "CRUD API for Task entity",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "4167232"
 	},
 	"item": [
 		{
-			"name": "Get All Persons",
+			"name": "Get All Tasks",
 			"event": [
 				{
 					"listen": "test",
@@ -27,7 +27,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/persons",
+					"raw": "http://localhost:8080/api/tasks",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -35,14 +35,14 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"persons"
+						"tasks"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Get Person by ID",
+			"name": "Get Task by ID",
 			"event": [
 				{
 					"listen": "test",
@@ -61,7 +61,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/persons/6",
+					"raw": "http://localhost:8080/api/tasks/6",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -69,7 +69,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"persons",
+						"tasks",
 						"6"
 					]
 				}
@@ -77,7 +77,7 @@
 			"response": []
 		},
 		{
-			"name": "Create Person",
+			"name": "Create Task",
 			"event": [
 				{
 					"listen": "test",
@@ -108,10 +108,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\":\"{{$randomLastName}}\",\n    \"city\":\"{{$randomCity}}\",\n    \"phoneNumber\": \"{{$randomPhoneNumber}}\"\n}"
+					"raw": "{\n    \"name\":\"My First Task\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/persons",
+					"raw": "http://localhost:8080/api/tasks",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -119,14 +119,14 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"persons"
+						"tasks"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Update Person",
+			"name": "Update Task",
 			"event": [
 				{
 					"listen": "test",
@@ -151,10 +151,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"city\":\"{{$randomCity}}\",\n    \"phoneNumber\": \"{{$randomPhoneNumber}}\"\n}"
+					"raw": "{\n    \"name\":\"Updated Task Name\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/persons/5",
+					"raw": "http://localhost:8080/api/tasks/5",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -162,7 +162,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"persons",
+						"tasks",
 						"5"
 					]
 				}
@@ -170,7 +170,7 @@
 			"response": []
 		},
 		{
-			"name": "Delete Person",
+			"name": "Delete Task",
 			"event": [
 				{
 					"listen": "test",
@@ -189,7 +189,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/persons/6",
+					"raw": "http://localhost:8080/api/tasks/6",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -197,7 +197,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"persons",
+						"tasks",
 						"6"
 					]
 				}

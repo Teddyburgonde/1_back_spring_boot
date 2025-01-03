@@ -35,6 +35,10 @@ SELECT * FROM name_tables;
 
 ./mvnw spring-boot:run <br>
 
+## Nettoyer target
+```c
+./mvnw clean <br>
+```
 ## Configurer ma base de donnée
 
 dans resources/application.properties  <br>
